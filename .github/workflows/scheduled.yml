@@ -29,7 +29,7 @@
 name: Commit date to master
 on:
   schedule:
-  - cron: '20 * * * *'
+  - cron: '20 5 */10 * *'
   
 jobs:
   date:
